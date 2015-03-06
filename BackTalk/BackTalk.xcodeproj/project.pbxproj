@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CDD2F641AAA0B100073BB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */; };
+		6CDD2F661AAA0B100073BB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD2F651AAA0B100073BB03 /* ViewController.swift */; };
+		6CDD2F691AAA0B100073BB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD2F671AAA0B100073BB03 /* Main.storyboard */; };
+		6CDD2F6B1AAA0B100073BB03 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD2F6A1AAA0B100073BB03 /* Images.xcassets */; };
+		6CDD2F6E1AAA0B100073BB03 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD2F6C1AAA0B100073BB03 /* LaunchScreen.xib */; };
+		6CDD2F7A1AAA0B100073BB03 /* BackTalkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD2F791AAA0B100073BB03 /* BackTalkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CDD2F741AAA0B100073BB03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CDD2F561AAA0B0F0073BB03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CDD2F5D1AAA0B100073BB03;
+			remoteInfo = BackTalk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CDD2F5E1AAA0B100073BB03 /* BackTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDD2F621AAA0B100073BB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CDD2F651AAA0B100073BB03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CDD2F681AAA0B100073BB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CDD2F6A1AAA0B100073BB03 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6CDD2F6D1AAA0B100073BB03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6CDD2F731AAA0B100073BB03 /* BackTalkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackTalkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDD2F781AAA0B100073BB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDD2F791AAA0B100073BB03 /* BackTalkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackTalkTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CDD2F5B1AAA0B100073BB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD2F701AAA0B100073BB03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CDD2F551AAA0B0F0073BB03 = {
+			isa = PBXGroup;
+			children = (
+				6CDD2F601AAA0B100073BB03 /* BackTalk */,
+				6CDD2F761AAA0B100073BB03 /* BackTalkTests */,
+				6CDD2F5F1AAA0B100073BB03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CDD2F5F1AAA0B100073BB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD2F5E1AAA0B100073BB03 /* BackTalk.app */,
+				6CDD2F731AAA0B100073BB03 /* BackTalkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CDD2F601AAA0B100073BB03 /* BackTalk */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */,
+				6CDD2F651AAA0B100073BB03 /* ViewController.swift */,
+				6CDD2F671AAA0B100073BB03 /* Main.storyboard */,
+				6CDD2F6A1AAA0B100073BB03 /* Images.xcassets */,
+				6CDD2F6C1AAA0B100073BB03 /* LaunchScreen.xib */,
+				6CDD2F611AAA0B100073BB03 /* Supporting Files */,
+			);
+			path = BackTalk;
+			sourceTree = "<group>";
+		};
+		6CDD2F611AAA0B100073BB03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD2F621AAA0B100073BB03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CDD2F761AAA0B100073BB03 /* BackTalkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD2F791AAA0B100073BB03 /* BackTalkTests.swift */,
+				6CDD2F771AAA0B100073BB03 /* Supporting Files */,
+			);
+			path = BackTalkTests;
+			sourceTree = "<group>";
+		};
+		6CDD2F771AAA0B100073BB03 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CDD2F781AAA0B100073BB03 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CDD2F5D1AAA0B100073BB03 /* BackTalk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDD2F7D1AAA0B100073BB03 /* Build configuration list for PBXNativeTarget "BackTalk" */;
+			buildPhases = (
+				6CDD2F5A1AAA0B100073BB03 /* Sources */,
+				6CDD2F5B1AAA0B100073BB03 /* Frameworks */,
+				6CDD2F5C1AAA0B100073BB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackTalk;
+			productName = BackTalk;
+			productReference = 6CDD2F5E1AAA0B100073BB03 /* BackTalk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CDD2F721AAA0B100073BB03 /* BackTalkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDD2F801AAA0B100073BB03 /* Build configuration list for PBXNativeTarget "BackTalkTests" */;
+			buildPhases = (
+				6CDD2F6F1AAA0B100073BB03 /* Sources */,
+				6CDD2F701AAA0B100073BB03 /* Frameworks */,
+				6CDD2F711AAA0B100073BB03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CDD2F751AAA0B100073BB03 /* PBXTargetDependency */,
+			);
+			name = BackTalkTests;
+			productName = BackTalkTests;
+			productReference = 6CDD2F731AAA0B100073BB03 /* BackTalkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CDD2F561AAA0B0F0073BB03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Dulio Denis";
+				TargetAttributes = {
+					6CDD2F5D1AAA0B100073BB03 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6CDD2F721AAA0B100073BB03 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6CDD2F5D1AAA0B100073BB03;
+					};
+				};
+			};
+			buildConfigurationList = 6CDD2F591AAA0B0F0073BB03 /* Build configuration list for PBXProject "BackTalk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CDD2F551AAA0B0F0073BB03;
+			productRefGroup = 6CDD2F5F1AAA0B100073BB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CDD2F5D1AAA0B100073BB03 /* BackTalk */,
+				6CDD2F721AAA0B100073BB03 /* BackTalkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CDD2F5C1AAA0B100073BB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDD2F691AAA0B100073BB03 /* Main.storyboard in Resources */,
+				6CDD2F6E1AAA0B100073BB03 /* LaunchScreen.xib in Resources */,
+				6CDD2F6B1AAA0B100073BB03 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD2F711AAA0B100073BB03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CDD2F5A1AAA0B100073BB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDD2F661AAA0B100073BB03 /* ViewController.swift in Sources */,
+				6CDD2F641AAA0B100073BB03 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CDD2F6F1AAA0B100073BB03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDD2F7A1AAA0B100073BB03 /* BackTalkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CDD2F751AAA0B100073BB03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CDD2F5D1AAA0B100073BB03 /* BackTalk */;
+			targetProxy = 6CDD2F741AAA0B100073BB03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CDD2F671AAA0B100073BB03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDD2F681AAA0B100073BB03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CDD2F6C1AAA0B100073BB03 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDD2F6D1AAA0B100073BB03 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CDD2F7B1AAA0B100073BB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CDD2F7C1AAA0B100073BB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CDD2F7E1AAA0B100073BB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CDD2F7F1AAA0B100073BB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackTalk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6CDD2F811AAA0B100073BB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BackTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackTalk.app/BackTalk";
+			};
+			name = Debug;
+		};
+		6CDD2F821AAA0B100073BB03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BackTalkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackTalk.app/BackTalk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CDD2F591AAA0B0F0073BB03 /* Build configuration list for PBXProject "BackTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDD2F7B1AAA0B100073BB03 /* Debug */,
+				6CDD2F7C1AAA0B100073BB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDD2F7D1AAA0B100073BB03 /* Build configuration list for PBXNativeTarget "BackTalk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDD2F7E1AAA0B100073BB03 /* Debug */,
+				6CDD2F7F1AAA0B100073BB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6CDD2F801AAA0B100073BB03 /* Build configuration list for PBXNativeTarget "BackTalkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDD2F811AAA0B100073BB03 /* Debug */,
+				6CDD2F821AAA0B100073BB03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CDD2F561AAA0B0F0073BB03 /* Project object */;
+}
