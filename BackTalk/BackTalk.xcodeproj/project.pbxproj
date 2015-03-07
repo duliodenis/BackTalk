@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C844D1D1AABA296006139EA /* HAL9000.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6C844D1C1AABA296006139EA /* HAL9000.mp3 */; };
+		6CA4BCAE1AAB68AA0065EEE1 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4BCAD1AAB68AA0065EEE1 /* PlaySoundViewController.swift */; };
 		6CDD2F641AAA0B100073BB03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */; };
 		6CDD2F661AAA0B100073BB03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDD2F651AAA0B100073BB03 /* ViewController.swift */; };
 		6CDD2F691AAA0B100073BB03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDD2F671AAA0B100073BB03 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6C844D1C1AABA296006139EA /* HAL9000.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HAL9000.mp3; sourceTree = "<group>"; };
+		6CA4BCAD1AAB68AA0065EEE1 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
 		6CDD2F5E1AAA0B100073BB03 /* BackTalk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackTalk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDD2F621AAA0B100073BB03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,7 @@
 			children = (
 				6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */,
 				6CDD2F651AAA0B100073BB03 /* ViewController.swift */,
+				6CA4BCAD1AAB68AA0065EEE1 /* PlaySoundViewController.swift */,
 				6CDD2F671AAA0B100073BB03 /* Main.storyboard */,
 				6CDD2F6A1AAA0B100073BB03 /* Images.xcassets */,
 				6CDD2F6C1AAA0B100073BB03 /* LaunchScreen.xib */,
@@ -90,6 +95,7 @@
 		6CDD2F611AAA0B100073BB03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6C844D1C1AABA296006139EA /* HAL9000.mp3 */,
 				6CDD2F621AAA0B100073BB03 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -195,6 +201,7 @@
 				6CDD2F691AAA0B100073BB03 /* Main.storyboard in Resources */,
 				6CDD2F6E1AAA0B100073BB03 /* LaunchScreen.xib in Resources */,
 				6CDD2F6B1AAA0B100073BB03 /* Images.xcassets in Resources */,
+				6C844D1D1AABA296006139EA /* HAL9000.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CDD2F661AAA0B100073BB03 /* ViewController.swift in Sources */,
+				6CA4BCAE1AAB68AA0065EEE1 /* PlaySoundViewController.swift in Sources */,
 				6CDD2F641AAA0B100073BB03 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				6CDD2F7F1AAA0B100073BB03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CDD2F801AAA0B100073BB03 /* Build configuration list for PBXNativeTarget "BackTalkTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				6CDD2F821AAA0B100073BB03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
