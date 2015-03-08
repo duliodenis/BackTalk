@@ -12,16 +12,12 @@ import AVFoundation
 class PlaySoundViewController: UIViewController {
     
     var audioPlayer:AVAudioPlayer!
+    var receivedAudio:RecordedAudio!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if var filePath = NSBundle.mainBundle().pathForResource("HAL9000", ofType: "mp3") {
-            let fileUrl = NSURL.fileURLWithPath(filePath)
-            audioPlayer = AVAudioPlayer(contentsOfURL: fileUrl, error: nil)
-            audioPlayer.enableRate = true
-        } else {
-            println("filepath not found")
-        }
+        audioPlayer = AVAudioPlayer(contentsOfURL: receivedAudio.filePathURL, error: nil)
+        audioPlayer.enableRate = true
     }
 
     @IBAction func slowSound(sender: UIButton) {

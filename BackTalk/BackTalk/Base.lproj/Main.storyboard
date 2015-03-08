@@ -9,7 +9,7 @@
         <!--Record-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BackTalk" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="RecordViewController" customModule="BackTalk" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -40,7 +40,6 @@
                                 </state>
                                 <connections>
                                     <action selector="stopRecording:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="aJk-19-dLn"/>
-                                    <segue destination="hFL-xc-itW" kind="show" id="pmP-4n-BUP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,6 +88,7 @@
                         <outlet property="recordButton" destination="tw6-aK-faU" id="HV0-f6-TBg"/>
                         <outlet property="recordingLabel" destination="8cq-Ii-j5P" id="V3c-HR-ddv"/>
                         <outlet property="stopButton" destination="hSh-dt-fKq" id="877-pr-iXb"/>
+                        <segue destination="hFL-xc-itW" kind="show" identifier="StopRecording" id="roe-Mq-Ah1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -151,12 +151,12 @@
                                 <exclude reference="24l-Vl-jfy"/>
                             </mask>
                             <mask key="constraints">
+                                <exclude reference="yhN-W2-chp"/>
+                                <exclude reference="WCo-uH-Obf"/>
                                 <exclude reference="FaM-nS-kJk"/>
                                 <exclude reference="uNw-bq-ahq"/>
                                 <exclude reference="3Hd-w3-Nlr"/>
                                 <exclude reference="jgj-DH-ecn"/>
-                                <exclude reference="WCo-uH-Obf"/>
-                                <exclude reference="yhN-W2-chp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -166,12 +166,12 @@
                                 <include reference="24l-Vl-jfy"/>
                             </mask>
                             <mask key="constraints">
+                                <include reference="yhN-W2-chp"/>
+                                <include reference="WCo-uH-Obf"/>
                                 <include reference="FaM-nS-kJk"/>
                                 <include reference="uNw-bq-ahq"/>
                                 <include reference="3Hd-w3-Nlr"/>
                                 <include reference="jgj-DH-ecn"/>
-                                <include reference="WCo-uH-Obf"/>
-                                <include reference="yhN-W2-chp"/>
                             </mask>
                         </variation>
                     </view>
