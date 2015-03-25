@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RQY-0E-PiI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="RQY-0E-PiI">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -30,7 +30,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="recording..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cq-Ii-j5P">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="14"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSh-dt-fKq">
@@ -134,12 +134,34 @@
                                     <action selector="stopSound:" destination="hFL-xc-itW" eventType="touchUpInside" id="Z5A-Mn-Hbg"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FKJ-1z-Hfo">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="chipmunk">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="highPitchSound:" destination="hFL-xc-itW" eventType="touchUpInside" id="2My-SG-qN6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jqd-Su-iQh">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" image="vader">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="vaderSound:" destination="hFL-xc-itW" eventType="touchUpInside" id="34m-Nr-Dl4"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="Lmd-z5-ur7" secondAttribute="trailing" constant="33" id="3Hd-w3-Nlr"/>
+                            <constraint firstItem="jqd-Su-iQh" firstAttribute="top" secondItem="Lmd-z5-ur7" secondAttribute="bottom" constant="46" id="4mO-D6-QlP"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jqd-Su-iQh" secondAttribute="trailing" constant="33" id="9k0-vh-Smq"/>
+                            <constraint firstItem="FKJ-1z-Hfo" firstAttribute="leading" secondItem="esG-7j-3cM" secondAttribute="leadingMargin" constant="35" id="D4P-bM-azo"/>
                             <constraint firstItem="IK4-Ck-bVT" firstAttribute="top" secondItem="sty-WX-2Pg" secondAttribute="bottom" constant="49" id="FaM-nS-kJk"/>
                             <constraint firstAttribute="centerX" secondItem="24l-Vl-jfy" secondAttribute="centerX" constant="-2" id="WCo-uH-Obf"/>
+                            <constraint firstItem="FKJ-1z-Hfo" firstAttribute="top" secondItem="IK4-Ck-bVT" secondAttribute="bottom" constant="37" id="f6G-Sp-bDW"/>
                             <constraint firstItem="Lmd-z5-ur7" firstAttribute="top" secondItem="sty-WX-2Pg" secondAttribute="bottom" constant="40" id="jgj-DH-ecn"/>
                             <constraint firstItem="IK4-Ck-bVT" firstAttribute="leading" secondItem="esG-7j-3cM" secondAttribute="leadingMargin" constant="35" id="uNw-bq-ahq"/>
                             <constraint firstItem="i4w-Fe-ErN" firstAttribute="top" secondItem="24l-Vl-jfy" secondAttribute="bottom" constant="63" id="yhN-W2-chp"/>
@@ -149,14 +171,20 @@
                                 <exclude reference="IK4-Ck-bVT"/>
                                 <exclude reference="Lmd-z5-ur7"/>
                                 <exclude reference="24l-Vl-jfy"/>
+                                <exclude reference="FKJ-1z-Hfo"/>
+                                <exclude reference="jqd-Su-iQh"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="yhN-W2-chp"/>
-                                <exclude reference="WCo-uH-Obf"/>
                                 <exclude reference="FaM-nS-kJk"/>
                                 <exclude reference="uNw-bq-ahq"/>
+                                <exclude reference="D4P-bM-azo"/>
+                                <exclude reference="f6G-Sp-bDW"/>
                                 <exclude reference="3Hd-w3-Nlr"/>
                                 <exclude reference="jgj-DH-ecn"/>
+                                <exclude reference="4mO-D6-QlP"/>
+                                <exclude reference="9k0-vh-Smq"/>
+                                <exclude reference="WCo-uH-Obf"/>
+                                <exclude reference="yhN-W2-chp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -164,14 +192,20 @@
                                 <include reference="IK4-Ck-bVT"/>
                                 <include reference="Lmd-z5-ur7"/>
                                 <include reference="24l-Vl-jfy"/>
+                                <include reference="FKJ-1z-Hfo"/>
+                                <include reference="jqd-Su-iQh"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="yhN-W2-chp"/>
-                                <include reference="WCo-uH-Obf"/>
                                 <include reference="FaM-nS-kJk"/>
                                 <include reference="uNw-bq-ahq"/>
+                                <include reference="D4P-bM-azo"/>
+                                <include reference="f6G-Sp-bDW"/>
                                 <include reference="3Hd-w3-Nlr"/>
                                 <include reference="jgj-DH-ecn"/>
+                                <include reference="4mO-D6-QlP"/>
+                                <include reference="9k0-vh-Smq"/>
+                                <include reference="WCo-uH-Obf"/>
+                                <include reference="yhN-W2-chp"/>
                             </mask>
                         </variation>
                     </view>
@@ -200,10 +234,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="chipmunk" width="100" height="100"/>
         <image name="microphone" width="100" height="100"/>
         <image name="rabbit" width="100" height="100"/>
         <image name="snail" width="100" height="100"/>
         <image name="stop" width="50" height="50"/>
+        <image name="vader" width="100" height="100"/>
     </resources>
     <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
 </document>
