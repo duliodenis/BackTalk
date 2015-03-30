@@ -66,8 +66,17 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
     func audioRecorderDidFinishRecording(recorder: AVAudioRecorder!, successfully flag: Bool) {
         if (flag) {
             recordedAudio = RecordedAudio()
-            recordedAudio?.filePathURL = recorder.url
-            recordedAudio?.title = recorder.url.lastPathComponent
+            if recordedAudio == nil {
+                let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first as String
+                
+                let recordingName = "HAL9000.mp3"
+                let pathArray = [dirPath, recordingName]
+                recordedAudio?.filePathURL = NSURL.fileURLWithPathComponents(pathArray)
+                recordedAudio?.title = recorder.url.lastPathComponent
+            } else {
+                recordedAudio?.filePathURL = recorder.url
+                recordedAudio?.title = recorder.url.lastPathComponent
+            }
             
             self.performSegueWithIdentifier("StopRecording", sender: recordedAudio)
         } else {

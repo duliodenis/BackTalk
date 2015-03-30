@@ -175,16 +175,16 @@
                                 <exclude reference="jqd-Su-iQh"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="FaM-nS-kJk"/>
-                                <exclude reference="uNw-bq-ahq"/>
+                                <exclude reference="yhN-W2-chp"/>
+                                <exclude reference="WCo-uH-Obf"/>
                                 <exclude reference="D4P-bM-azo"/>
                                 <exclude reference="f6G-Sp-bDW"/>
+                                <exclude reference="FaM-nS-kJk"/>
+                                <exclude reference="uNw-bq-ahq"/>
                                 <exclude reference="3Hd-w3-Nlr"/>
                                 <exclude reference="jgj-DH-ecn"/>
                                 <exclude reference="4mO-D6-QlP"/>
                                 <exclude reference="9k0-vh-Smq"/>
-                                <exclude reference="WCo-uH-Obf"/>
-                                <exclude reference="yhN-W2-chp"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -196,16 +196,16 @@
                                 <include reference="jqd-Su-iQh"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="FaM-nS-kJk"/>
-                                <include reference="uNw-bq-ahq"/>
+                                <include reference="yhN-W2-chp"/>
+                                <include reference="WCo-uH-Obf"/>
                                 <include reference="D4P-bM-azo"/>
                                 <include reference="f6G-Sp-bDW"/>
+                                <include reference="FaM-nS-kJk"/>
+                                <include reference="uNw-bq-ahq"/>
                                 <include reference="3Hd-w3-Nlr"/>
                                 <include reference="jgj-DH-ecn"/>
                                 <include reference="4mO-D6-QlP"/>
                                 <include reference="9k0-vh-Smq"/>
-                                <include reference="WCo-uH-Obf"/>
-                                <include reference="yhN-W2-chp"/>
                             </mask>
                         </variation>
                     </view>

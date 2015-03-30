@@ -83,7 +83,6 @@
 		6CDD2F601AAA0B100073BB03 /* BackTalk */ = {
 			isa = PBXGroup;
 			children = (
-				6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */,
 				6CDD2F651AAA0B100073BB03 /* RecordViewController.swift */,
 				6CA4BCAD1AAB68AA0065EEE1 /* PlaySoundViewController.swift */,
 				6C844D1E1AABB0C7006139EA /* RecordedAudio.swift */,
@@ -98,6 +97,7 @@
 		6CDD2F611AAA0B100073BB03 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6CDD2F631AAA0B100073BB03 /* AppDelegate.swift */,
 				6C844D1C1AABA296006139EA /* HAL9000.mp3 */,
 				6CDD2F621AAA0B100073BB03 /* Info.plist */,
 			);
