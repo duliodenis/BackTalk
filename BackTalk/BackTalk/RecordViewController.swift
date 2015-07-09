@@ -33,7 +33,7 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
         stopButton.hidden = false
         recordButton.enabled = false
         
-        let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first as String
+        let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first as! String
 
         let recordingName = "Recording.m4a"
         let pathArray = [dirPath, recordingName]
@@ -67,7 +67,7 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
         if (flag) {
             recordedAudio = RecordedAudio()
             if recordedAudio == nil {
-                let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first as String
+                let dirPath = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true).first as! String
                 
                 let recordingName = "HAL9000.mp3"
                 let pathArray = [dirPath, recordingName]
@@ -88,8 +88,8 @@ class RecordViewController: UIViewController, AVAudioRecorderDelegate {
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "StopRecording") {
-            let playSoundVC:PlaySoundViewController = segue.destinationViewController as PlaySoundViewController
-            playSoundVC.receivedAudio = sender as RecordedAudio
+            let playSoundVC:PlaySoundViewController = segue.destinationViewController as! PlaySoundViewController
+            playSoundVC.receivedAudio = sender as! RecordedAudio
         }
     }
     
