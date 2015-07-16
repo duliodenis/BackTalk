@@ -25,6 +25,11 @@ class PlaySoundViewController: UIViewController {
         
         audioEngine = AVAudioEngine()
         audioFile = AVAudioFile(forReading: receivedAudio.filePathURL, error: nil)
+        
+        // To boost low on-device sound
+        var session = AVAudioSession.sharedInstance()
+        session.setCategory(AVAudioSessionCategoryPlayAndRecord, error: nil)
+        session.overrideOutputAudioPort(AVAudioSessionPortOverride.Speaker, error: nil)
     }
 
     @IBAction func slowSound(sender: UIButton) {
